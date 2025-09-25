@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor-primaria: #FF0069;
+    --cor-secundaria: #dd004a;
+    --cor-roxo: #2B1D4D;
+    --cor-fundo: #0B0F12;
+    --cor-card: #3d4a5eb6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-bg {
+    background-image: url('../assets/img-hero1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 1024px) {
+    .lg\:hero-bg { 
+        background-image: url('../assets/img-hero1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.like-btn.active {
+    color: var(--cor-primaria);
+}
+
+.nav-link.active {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.navbar-transparent {
+    background: rgba(11, 15, 18, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-solid {
+    background: rgba(11, 15, 18, 0.95);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
