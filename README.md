@@ -110,7 +110,7 @@ melodia/
 ```
 
 # 🌐 Página Publicada no GitHub Pages
-🔗 [Acesse aqui]()
+🔗 [Acesse aqui](https://olivanaa.github.io/Melodia/)
 
 
 # 📄 Licença
